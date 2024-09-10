@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+}
+
+
+header, footer {
+    background-color: #1F2937;
+}
+
+nav {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 6%;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    flex: 1 1 70%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 30%;
+}
+
+.description-text {
+    flex: 1 1 50%;
+    flex-wrap: wrap;
+    padding: 0 2em;
+}
+
+.description-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+
+}
+
+.nav-links a, .description-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+
+}
+
+.description-text button {
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    padding: .7em 2em;
+    color: #F9FAF8;
+    font-size: 1em;
+}
+
+.description-img {
+    flex: 1 1 50%;
+    padding: 0 2em;
+}
+
+.description-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.info-section p {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-imgs {
+    display: flex;
+    max-width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.info-pair {
+    flex: 1 1 20%;
+}
+.info-pair p {
+    color: unset;
+    font-weight: unset;
+}
+.info-img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.info-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 6em 0;
+}
+
+.quote, .quote-author {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: bold;
+}
+
+.signup-section {
+    padding: 6em 0;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    display: flex;
+    max-width: 60%;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 2em 0;
+    border-radius: .5em;
+}
+
+.signup-heading {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+
+.signup-subtext {
+    color: #F9FAF8;
+    font-size: 18px;
+    margin: 0;
+}
+
+.signup-section button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: .7em;
+    padding: 0 2.5em;
+    font-size: 20px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+footer {
+    padding: 2em 0;
+}
+
+footer p {
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+
